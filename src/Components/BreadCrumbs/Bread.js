@@ -7,7 +7,7 @@ function Bread({movieTitle}) {
   return (
     <Wrapper>
         <Content>
-            <Link to="/">
+            <Link to="/movie-catalogue">
                 <span>Home</span>
             </Link>
             <span>|</span>

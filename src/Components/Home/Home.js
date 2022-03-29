@@ -6,11 +6,11 @@ import Grid from "../MovieGrid/Grid"
 import Thumb from "../Thumb/Thumb"
 import Spinners from "../Spinner/Spinner"
 import Button from "../Button/Button"
-import { BACKDROP_SIZE, IMAGE_BASE_URL, API_KEY } from "../../config"
+import { BACKDROP_SIZE, IMAGE_BASE_URL } from "../../config"
 import NoImage from "../../images/no_image.jpg"
 
 function Home(){
-    const { state, loading, error, searchTerm, setIsLoadingMore, setSearchTerm} = useHomeFetch()
+    const { state, loading, searchTerm, setIsLoadingMore, setSearchTerm} = useHomeFetch()
     const movies = state.results
 
     const movieElements =state.results.map(movie =>{
