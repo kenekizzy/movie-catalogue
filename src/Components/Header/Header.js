@@ -8,7 +8,7 @@ function Header(){
     return(
         <Wrapper>
             <Content>
-                <Link to="/movie-catalogue">
+                <Link to="/movie-catalogue/">
                     <LogoImg  src={RMDBLogo} />
                 </Link>
                 <TMDBLogoImg src={TMDBLogo} />
